@@ -1,0 +1,12 @@
+<referenceContainer name="header.panel">
+    <block class="Magento\Framework\View\Element\Html\Link\Current" name="wishlist-counter" after="-">
+        <arguments>
+            <argument name="label" xsi:type="string" translate="true">Wishlist</argument>
+            <argument name="path" xsi:type="string">wishlist</argument>
+        </arguments>
+        <block name="wishlist-link" template="Magento_Wishlist::link.phtml"/>
+        <arguments>
+            <argument name="title" xsi:type="string" translate="true">Wishlist</argument>
+        </arguments>
+    </block>
+</referenceContainer>
